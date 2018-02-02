@@ -38,7 +38,7 @@ class Search extends Component{
     
     
     render(){
-        // map over the blogResults and userResults here, replace the empty arrays.
+        
         const blogResults = this.state.blogResults.map((c,i)=> <BlogTile key={i} blog={c}/> );
         const userResults = this.state.userResults.map((c,i)=> <UserTile key={i} user={c}/>);
 
